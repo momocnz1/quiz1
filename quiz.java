@@ -14,6 +14,8 @@ public class quiz{
         s.setID(65234);
         Id = s.getID();
         System.out.println("New ID : " + Id);
+        
+        s.ShowD();
     }
 }
 class student{
@@ -65,8 +67,5 @@ class student{
         System.out.println("ID : " + this.id);
         System.out.println("AddmiissionYear : " + this.addY);
         System.out.println("GPA : " + this.GPA);
-
     }
-
-
 }
