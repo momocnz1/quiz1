@@ -17,10 +17,10 @@ public class quiz{
     }
 }
 class student{
-    public String name;
-    public int id;
-    public int addY;
-    public double GPA;
+    private String name;
+    private int id;
+    private int addY;
+    private double GPA;
 
     student(String name,int id,int addY,double GPA){
         this.name = name;
